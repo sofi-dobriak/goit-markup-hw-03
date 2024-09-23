@@ -1,1 +1,1 @@
-# goit-markup-hw-03
+The third homework from the FullStack course by GoIT
