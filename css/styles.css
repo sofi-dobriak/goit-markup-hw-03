@@ -211,13 +211,15 @@ address {
 
 /* Advantages */
 
-.advantages-container {
+.advantages-list {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    gap: 22px;
+    gap: 24px;
+}
 
-    padding: 120px 0;
+.advantages-item {
+    width: calc((100% - 72px) / 4);
 }
 
 
