@@ -131,6 +131,8 @@ address {
 }
 
 .header-item {
+    font-weight: 500;
+    color: #2e2f42;
     padding: 24px 0;
 }
 
@@ -146,11 +148,6 @@ address {
 
 .light-accent {
     color: #f4f4fd;
-}
-
-.header-item {
-    font-weight: 500;
-    color: #2e2f42;
 }
 
 .header-item:hover,
@@ -255,8 +252,13 @@ address {
 
 .portfolio-list {
     display: flex;
-    gap: 20px;
+    column-gap: 24px;
+    row-gap: 48px;
     flex-wrap: wrap;
+}
+
+.portfolio-item {
+    width: calc((100% - 48px) / 3);
 }
 
 .port-text-content {
@@ -265,9 +267,8 @@ address {
     border-right: 1px solid #e7e9fc;
 }
 
-.portfolio-section-sub-title,
-.portfolio-text {
-    padding-left: 16px;
+.port-text-content {
+    padding: 32px 16px;
 }
 
 /* Footer */
@@ -277,8 +278,12 @@ address {
     padding: 100px 0;
 }
 
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
 .footer-text {
     color: #f4f4fd;
-    padding-top: 16px;
     max-width: 264px;
 }
