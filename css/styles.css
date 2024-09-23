@@ -131,14 +131,20 @@ address {
 }
 
 .header-item {
+    display: block;
+    padding: 24px 0;
     font-weight: 500;
     color: #2e2f42;
-    padding: 24px 0;
 }
 
 .address-list {
     display: flex;
     gap: 40px;
+}
+
+.address-item {
+    display: block;
+    padding: 24px 0;
 }
 
 
