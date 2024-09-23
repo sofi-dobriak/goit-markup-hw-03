@@ -33,7 +33,6 @@ ol {
 
 img {
     display: block;
-    margin-bottom: 32px;
 }
 
 a {
@@ -47,7 +46,7 @@ address {
 
 .container {
     width: 100%;
-    max-width: 1160px;
+    max-width: 1158px;
     margin: 0 auto;
     padding: 0 16px;
 }
@@ -95,6 +94,7 @@ address {
     color: #2e2f42;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
+    padding-top: 32px;
 }
 
 .text {
@@ -108,6 +108,8 @@ address {
     display: flex;
     align-items: center;
     padding: 24px 0;
+
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-nav {
@@ -249,8 +251,7 @@ address {
     flex-wrap: wrap;
 }
 
-.portfolio-list li {
-    border-top: 1px solid #e7e9fc;
+.port-text-content {
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
