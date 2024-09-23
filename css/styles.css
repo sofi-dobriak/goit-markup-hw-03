@@ -45,10 +45,20 @@ address {
 }
 
 .container {
-    width: 100%;
+    /* width: 100%; */
     max-width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
 }
 
 .section {
@@ -67,14 +77,6 @@ address {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-
-/* .container {
-    min-width: ;
-    padding-left: ;
-    padding-right: ;
-    margin-left: ;
-    margin-right: ;
-} */
 
 .section-title {
     font-weight: 700;
@@ -102,6 +104,7 @@ address {
     margin-bottom: 32px;
 }
 
+
 /* Navigation */
 
 .header {
@@ -111,14 +114,16 @@ address {
 .header-container {
     display: flex;
     align-items: center;
-    padding: 24px 0;
+}
+
+.header-logo {
+    margin-right: 76px;
 }
 
 .header-nav {
     display: flex;
     align-items: center;
     flex-grow: 1;
-    gap: 76px;
 }
 
 .header-list {
@@ -127,20 +132,15 @@ address {
     flex-grow: 1;
 }
 
+.header-item {
+    padding: 24px 0;
+}
+
 .address-list {
     display: flex;
     gap: 40px;
 }
 
-.logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-}
 
 .dark-accent {
     color: #2e2f42;
